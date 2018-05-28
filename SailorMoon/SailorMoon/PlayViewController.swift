@@ -19,7 +19,7 @@ class PlayViewController: UIViewController {
     }
     var singleLength: Int = 20
     var heightNum = 26
-    var widthNum = 17 //17*20 = 340    +40 =380
+    var widthNum = 17 
     //var blocksArray: [UIButton] = [UIButton]()
     var presets: [Preset] = [Preset]()
     var playerResult: [Preset] = [Preset]()//玩家版
