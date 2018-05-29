@@ -23,8 +23,8 @@ class FreeStyleViewController : UIViewController {
         super.viewDidLoad()
         updateSize(selectedSize: selectedSize)
         // Do any additional setup after loading the view, typically from a nib.
-        generateCanvas()
         generateColorBoard()
+        generateCanvas()
     }
     
     func updateSize(selectedSize:Int){
